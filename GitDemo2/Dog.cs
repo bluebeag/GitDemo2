@@ -15,9 +15,9 @@ namespace GitDemo2
         }
 
     
-        public virtual void Bark()
+        public virtual string Bark()
         {
-            Console.Write("Generic bark");
+            return "Generic bark";
         }
     }
 }

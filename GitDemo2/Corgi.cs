@@ -13,9 +13,9 @@ namespace GitDemo2
             DogFood = dogFood;
         }
 
-        public override void Bark()
+        public override string Bark()
         {
-            Console.Write("Corgi bark!");
+            return "Corgi bark!";
         }
     }
 }
