@@ -17,7 +17,7 @@ namespace GitDemo2
     
         public virtual string Bark()
         {
-            return "Generic bark";
+            return "Annoying bark";
         }
     }
 }

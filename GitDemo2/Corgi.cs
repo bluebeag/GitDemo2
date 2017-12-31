@@ -15,7 +15,7 @@ namespace GitDemo2
 
         public override string Bark()
         {
-            return "Corgi bark!";
+            return "Corgi Bark!";
         }
     }
 }

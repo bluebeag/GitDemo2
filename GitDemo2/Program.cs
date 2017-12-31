@@ -12,7 +12,7 @@ namespace GitDemo2
         {
             Console.Write("Hello Git!");
             Console.WriteLine("Hello Again Git!");
-            Dog dog = new Corgi("Acana Pasture Blend");
+            Dog dog = new Corgi("Acana Utah Blend");
             Console.WriteLine("My dog breed: " + dog.GetType().Name + ". " + "Dog food is: " + dog.DogFood + ". Bark is: " + dog.Bark());
             Console.ReadKey();
         }
